@@ -17,7 +17,7 @@ public class Player {
     private String currentDirectory;
     private boolean repeat;
     public Player() {
-        currentDirectory="";
+        currentDirectory="D:\\Music";
         songFile = new File("");
         String fileName = songFile.getName();
         player = new MP3Player(songFile) ;
